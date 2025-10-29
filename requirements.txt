@@ -1,0 +1,36 @@
+# Entorno base
+python-dotenv
+pandas
+numpy
+
+# LLMs y frameworks
+openai>=1.0.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+llama-index>=0.10.0
+autogen>=0.2.0
+
+# Procesamiento de PDFs y textos
+PyMuPDF
+pdfplumber
+tiktoken
+chromadb
+faiss-cpu
+
+# Modelos y pipelines locales
+transformers
+torch
+sentence-transformers
+
+# Visualización y utilidades
+matplotlib
+seaborn
+jupyter
+ipykernel
+tqdm
+
+# Manejo de embeddings y almacenamiento
+numpy
+scikit-learn
