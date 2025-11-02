@@ -106,7 +106,7 @@ nav:
           - dia2/notebooks/langchain_multi_agent_collaboration.ipynb
           - dia2/notebooks/langchain-tool-call.ipynb
           - dia2/notebooks/react-web-search.ipynb
-          - dia2/notebooks/react-web-search.ipynb
+          - dia2/notebooks/web-search.ipynb
 
   - 📝 Día 03:
       - dia3/clases.md
