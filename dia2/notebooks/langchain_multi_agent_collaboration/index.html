@@ -1029,11 +1029,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../react-web-search/" class="md-nav__link">
+      <a href="../web-search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    LangGraph doing a web search plus sentiment analysis using ReAct
+    LangGraph doing a web search plus sentiment analysis
   </span>
   
 
@@ -1184,7 +1184,7 @@
         
   
   <span class="md-ellipsis">
-    Langchain agent
+    LangChain Agent
   </span>
   
 
@@ -1941,40 +1941,13 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </style>
 <!-- End of mermaid configuration --><div class="jupyter-wrapper">
 <div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-1">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># !pip install --quiet langchain langchain-openai langchain-community deep-translator</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-1"># !pip install --quiet langchain langchain-openai langchain-community deep-translator</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="https://colab.research.google.com/github/fralfaro/clei2025-llm/blob/main/docs/dia2/notebooks/langchain_multi_agent_collaboration.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 <h2 id="sistema-colaborativo-multi-agente-para-el-analisis-de-datos-e-historia">Sistema Colaborativo (multi-agente) para el Análisis de Datos e Historia<a class="anchor-link" href="#sistema-colaborativo-multi-agente-para-el-analisis-de-datos-e-historia">¶</a></h2><p>Este notebook implementa un sistema de colaboración de múltiples agentes que combina la investigación histórica con el análisis de datos para responder preguntas históricas complejas. Aprovecha el poder de los modelos de lenguaje grandes para simular que agentes especializados trabajan juntos para brindar respuestas integrales.</p>
 <h3 id="motivacion">Motivación<a class="anchor-link" href="#motivacion">¶</a></h3><p>El análisis histórico a menudo requiere tanto una comprensión contextual profunda como una interpretación de datos cuantitativos. Al crear un sistema que combina estos dos aspectos, nuestro objetivo es brindar respuestas más sólidas y perspicaces a preguntas históricas complejas. Este enfoque imita la colaboración del mundo real entre historiadores y analistas de datos, lo que potencialmente conduce a perspectivas históricas más matizadas y basadas en datos.</p>
 </div>
@@ -2022,6 +1995,33 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </li>
 </ol>
 <p>Este proceso iterativo permite un intercambio entre el contexto histórico y el análisis de datos, imitando la investigación colaborativa del mundo real.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-1">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># !pip install --quiet langchain langchain-openai langchain-community deep-translator</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-1"># !pip install --quiet langchain langchain-openai langchain-community deep-translator</div>
+</div>
+</div>
 </div>
 </div>
 </div>
