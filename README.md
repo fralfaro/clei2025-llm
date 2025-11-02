@@ -1,8 +1,13 @@
 # Introducción a LLMs y Agentes: Arquitecturas y Aplicaciones en Ingeniería de Software
 
+![example workflow](https://github.com/fralfaro/clei2025-llm/actions/workflows/documentation.yml/badge.svg)
+<a href="https://fralfaro.github.io/clei2025-llm"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
+<a href="https://drive.google.com/drive/folders/1gWgAkk0p-TsGohp9o3f55djJfiqBXU0-"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📁 Material-link-brightgreen"></a>
+
 * **Docente:** Dr. J. Andrés Díaz Pace (UNICEN – Argentina)
 * **Duración:** 15 horas presenciales + 15 horas prácticas adicionales
 
+> **Nota:** Versión adaptada del curso *Introducción a LLMs y Agentes* dictado por el Dr. J. Andrés Díaz Pace (UNICEN – Argentina): [Material original en Google Drive](https://drive.google.com/drive/folders/1gWgAkk0p-TsGohp9o3f55djJfiqBXU0-)
 
 
 ## 🎯 Objetivos del curso

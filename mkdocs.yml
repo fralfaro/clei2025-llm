@@ -1,0 +1,118 @@
+# Project information
+site_name: Introducción a LLMs y Agentes
+site_url: https://github.com/fralfaro/clei2025-llm
+site_author: Francisco Alfaro
+
+# Repository
+repo_name: fralfaro/clei2025-llm
+repo_url: https://github.com/fralfaro/clei2025-llm
+edit_uri: ''
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/clei2.png
+  favicon: images/clei2.png
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+  - navigation.footer
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+    - icon: fontawesome/solid/globe
+      link: https://fralfaro.github.io/portfolio/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+
+#TOC
+nav:
+  - 🏠 Home:
+      - index.md
+
+  - 📝 Día 01:
+      - dia1/clases.md
+      - 📓 Notebooks:
+          - dia1/notebooks/chat_model.ipynb
+          - dia1/notebooks/langchain-tool-call.ipynb
+          - dia1/notebooks/rag_langchain.ipynb
+          - dia1/notebooks/structured-outputs.ipynb
+
+  - 📝 Día 02:
+      - dia2/clases.md
+      - 📓 Notebooks:
+          - dia2/notebooks/agentic-rag.ipynb
+          - dia2/notebooks/langchain_multi_agent_collaboration.ipynb
+          - dia2/notebooks/langchain-tool-call.ipynb
+          - dia2/notebooks/react-web-search.ipynb
+          - dia2/notebooks/react-web-search.ipynb
+
+  - 📝 Día 03:
+      - dia3/clases.md
+      - 📓 Notebooks:
+          - dia3/notebooks/langchain_agent.ipynb
+          - dia3/notebooks/langgraph-interrupt.ipynb
+          - dia3/notebooks/mcp_rag.ipynb
+          - dia3/notebooks/reflection.ipynb
+          - dia3/notebooks/sql-agent.ipynb
